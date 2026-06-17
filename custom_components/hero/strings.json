@@ -1,0 +1,40 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "Hero",
+        "description": "Connect to Hero and create a unified school calendar.",
+        "data": {
+          "username": "Email",
+          "password": "Password",
+          "excluded_words": "Excluded calendar words"
+        },
+        "data_description": {
+          "excluded_words": "Hide events whose titles contain any of these words (case-insensitive, whole words). Separate multiple words with commas, for example Senior, Junior. Leave blank to disable."
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Could not connect or log in to Hero. Check the Home Assistant log for details.",
+      "unknown": "Unexpected error. Check the Home Assistant log for details."
+    },
+    "abort": {
+      "already_configured": "This Hero account is already configured."
+    }
+  },
+  "options": {
+    "step": {
+      "init": {
+        "title": "Hero options",
+        "data": {
+          "hide_week_events": "Hide week-number events",
+          "excluded_words": "Excluded calendar words"
+        },
+        "data_description": {
+          "hide_week_events": "Hide events starting with Week and a number, such as Week 2 or Week 1 - TERM 4.",
+          "excluded_words": "Hide events whose titles contain any of these words (case-insensitive, whole words). Separate multiple words with commas, for example Senior, Junior. Leave blank to disable."
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "domain": "hero",
+  "name": "Hero",
+  "codeowners": [ "codyc1515" ],
+  "config_flow": true,
+  "dependencies": [],
+  "documentation": "https://github.com/codyc1515/ha-hero",
+  "iot_class": "cloud_polling",
+  "issue_tracker": "https://github.com/codyc1515/ha-hero/issues",
+  "requirements": [],
+  "version": "0.1.0"
+}
