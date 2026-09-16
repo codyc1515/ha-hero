@@ -1,7 +1,7 @@
 {
   "domain": "hero",
   "name": "Hero",
-  "codeowners": [ "codyc1515" ],
+  "codeowners": [ "@codyc1515" ],
   "config_flow": true,
   "dependencies": [],
   "documentation": "https://github.com/codyc1515/ha-hero",
